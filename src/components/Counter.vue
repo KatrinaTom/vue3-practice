@@ -2,13 +2,19 @@
   <h2 class="heading">Counter App</h2>
   <div class="container">
     <h3>The current count is...</h3>
-    <div class="container-count">0</div>
+    <div class="container-count">{{ count }}</div>
     <div class="container-button">
-      <button class="button">+</button>
-      <button class="button">-</button>
+      <button class="button" @click="count--">-</button>
+      <button class="button" @click="count++">+</button>
     </div>
   </div>
 </template>
+
+<script setup>
+import { ref } from 'vue'
+
+const count = ref(0);
+</script>
 
 <style scoped>
 .heading {
@@ -20,8 +26,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
-  border: solid 1px green;
   flex-direction: column;
 }
 

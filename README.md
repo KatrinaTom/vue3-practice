@@ -33,7 +33,19 @@ Following along in Udemy:
 
 Learn to built frontend Vue 3 applications using Pinia, TypeScript, Supabase and the Composition API
 
-Instructor: Laith Harb || Software Engineer
+**Instructor:** Laith Harb || Software Engineer
+
+## Screenshots
+
+<img src="./src/assets/screenshots/counter.png" width="500" />
+
+Through the use of set up - composition api (vue 3).
+
+<img src="./src/assets/screenshots/setup.png" width="500" />
+
+import { ref } from 'vue': This line is importing the ref function from Vue. The ref function is used to create a reactive reference to a value.
+
+const count = ref(0);: This line is declaring a constant variable count and initializing it with a reactive reference to the value 0. This means that count is a reactive state, and any changes to count will be automatically tracked and will cause the component to re-render.
 
 ## Additional Notes:
 
