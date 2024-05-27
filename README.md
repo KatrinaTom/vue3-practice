@@ -18,7 +18,7 @@ ___
 
 ## Quick Introduction
 
-This is a quick project to build up confident using vue 2 and vue 3. 
+This is a quick project to build up confidence using vue 2 and vue 3. 
 
 Starting with basic's, build a counter in vue. 
 
